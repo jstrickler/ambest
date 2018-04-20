@@ -35,3 +35,5 @@ print(q[:3], '\n')  # first 3 rows
 
 for row in q:
     print(row)
+
+

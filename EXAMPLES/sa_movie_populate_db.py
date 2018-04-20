@@ -30,12 +30,12 @@ def setup():
         'sqlite:///../DATA/movies.db',
         echo=False
     )
-    SESSION = sessionmaker(bind=engine)
-    return SESSION()
+    sm = sessionmaker(bind=engine)
+    return sm()
 
 def add_director(session, director, movies):
 
-    d = Director(*director)
+    d = Director(director[1], director[0])
     
     for movie_name, year in movies:
         m = Movie(movie_name, year)

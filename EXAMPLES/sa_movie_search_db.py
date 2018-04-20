@@ -28,12 +28,12 @@ def do_query_1(session):
             print("\t{0} ({1})".format(movie.movie_name, movie.year))
 
 def do_query_2(session):
-    movie_name_query = 'M*A*S*H'
+    movie_name_wanted = 'M*A*S*H'
 
     # select * from Movie where movie_name  = 'M*A*S*H'
-    for result in session.query(Movie).filter(Movie.movie_name==movie_name_query):
+    for result in session.query(Movie).filter(Movie.movie_name==movie_name_wanted):
         print("{0} was directed by {1} {2}".format(
-            movie_name_query,
+            movie_name_wanted,
             result.person.first_name,
             result.person.last_name,
         ))
