@@ -1,0 +1,15 @@
+{% extends "bands_base.html" %}
+
+{% block content %}
+
+<h1>{{ band.name }}</h1>
+<h2>Genre: {{ band.genre }}</h2>
+<h2>Members:</h2>
+<ul>
+{% for member in band.members.all %}
+<li>{{ member.name }}</li>
+{% endfor %}
+</ul>
+
+<a href="{% url 'bands:bandsclasslist' %}">Return to band list</a>
+{% endblock %}

@@ -1,0 +1,401 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">75%</span>
+        </h1>
+
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+
+<div id="index">
+    <table class="index">
+        <thead>
+            
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>299</td>
+                <td>76</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="223 299">75%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            
+            <tr class="file">
+                <td class="name left"><a href="apiv1___init___py.html">apiv1/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="apiv1_admin_py.html">apiv1/admin.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="apiv1_migrations___init___py.html">apiv1/migrations/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="apiv1_models_py.html">apiv1/models.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="apiv1_serializers_py.html">apiv1/serializers.py</a></td>
+                <td>22</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="22 22">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="apiv1_tests_py.html">apiv1/tests.py</a></td>
+                <td>13</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 13">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="apiv1_urls_py.html">apiv1/urls.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="apiv1_views_py.html">apiv1/views.py</a></td>
+                <td>30</td>
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="20 30">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="djrest___init___py.html">djrest/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="djrest_settings_py.html">djrest/settings.py</a></td>
+                <td>24</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="24 24">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="djrest_urls_py.html">djrest/urls.py</a></td>
+                <td>7</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 7">71%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="docs___init___py.html">docs/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="manage_py.html">manage.py</a></td>
+                <td>13</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 13">54%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="restjs___init___py.html">restjs/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="restjs_migrations___init___py.html">restjs/migrations/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="restjs_urls_py.html">restjs/urls.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="restjs_views_py.html">restjs/views.py</a></td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 3">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes___init___py.html">superheroes/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes_admin_py.html">superheroes/admin.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes_migrations_0001_initial_py.html">superheroes/migrations/0001_initial.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 7">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes_migrations_0001_squashed_0004_auto_20171116_0921_py.html">superheroes/migrations/0001_squashed_0004_auto_20171116_0921.py</a></td>
+                <td>9</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 9">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes_migrations_0002_auto_20171102_0712_py.html">superheroes/migrations/0002_auto_20171102_0712.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes_migrations_0003_superhero_date_of_death_py.html">superheroes/migrations/0003_superhero_date_of_death.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes_migrations_0004_auto_20171116_0921_py.html">superheroes/migrations/0004_auto_20171116_0921.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes_migrations___init___py.html">superheroes/migrations/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes_models_py.html">superheroes/models.py</a></td>
+                <td>33</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="31 33">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes_tests_py.html">superheroes/tests.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes_urls_py.html">superheroes/urls.py</a></td>
+                <td>12</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="12 12">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes_views_py.html">superheroes/views.py</a></td>
+                <td>14</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 14">43%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes_views404_py.html">superheroes/views404.py</a></td>
+                <td>13</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 13">38%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes_viewsbasictemplate_py.html">superheroes/viewsbasictemplate.py</a></td>
+                <td>7</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 7">57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes_viewsextra_py.html">superheroes/viewsextra.py</a></td>
+                <td>8</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 8">50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes_viewsqueries_py.html">superheroes/viewsqueries.py</a></td>
+                <td>10</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 10">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="superheroes_viewstemplate_py.html">superheroes/viewstemplate.py</a></td>
+                <td>41</td>
+                <td>28</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 41">32%</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.4.2</a>,
+            created at 2017-11-17 11:10
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
