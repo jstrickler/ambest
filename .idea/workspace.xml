@@ -15,7 +15,7 @@
         <entry file="file://$PROJECT_DIR$/EXAMPLES/np_data_types.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="377">
-              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="33" />
+              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -817,7 +817,7 @@
     <entry file="file://$PROJECT_DIR$/EXAMPLES/np_data_types.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="33" />
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="33" />
           <folding />
         </state>
       </provider>
