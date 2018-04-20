@@ -46,6 +46,6 @@ s4 = pd.Series([-0.204708, 0.478943, -0.519439]) # <11>
 print("s4.max(), .min(), etc.")
 print(s4.max(), s4.min(), s4.max() - s4.min(), '\n') # <12>
 
-s = Series([5,10,15], ['a','b','c'])  # <13>
+s = pd.Series([5,10,15], ['a','b','c'])  # <13>
 print("creating series with index")
 print(s)

@@ -11,12 +11,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="np_data_types.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EXAMPLES/np_data_types.py">
+      <file leaf-file-name="pandas_series.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_series.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="344">
+              <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+              <folding>
+                <element signature="e#22#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pandas_simple_dataframe.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_simple_dataframe.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="24" />
+              <folding>
+                <element signature="e#22#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,12 +95,14 @@
         <option value="$PROJECT_DIR$/EXAMPLES/np_indexing.py" />
         <option value="$PROJECT_DIR$/EXAMPLES/np_bool_indexing.py" />
         <option value="$PROJECT_DIR$/EXAMPLES/np_stacking.py" />
+        <option value="$PROJECT_DIR$/np_read_csv.py" />
+        <option value="$PROJECT_DIR$/mpl_popup.py" />
+        <option value="$PROJECT_DIR$/EXAMPLES/pandas_series.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="26" />
-    <option name="y" value="29" />
+    <option name="y" value="23" />
     <option name="width" value="1232" />
     <option name="height" value="752" />
   </component>
@@ -134,6 +150,11 @@
             <path>
               <item name="py3ambest" type="b2602c69:ProjectViewProjectNode" />
               <item name="py3ambest" type="462c0819:PsiDirectoryNode" />
+              <item name="DATA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py3ambest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py3ambest" type="462c0819:PsiDirectoryNode" />
               <item name="EXAMPLES" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -169,42 +190,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.np_iterating">
-    <configuration name="np_basic_array_ops" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.pandas_simple_dataframe">
+    <configuration name="mpl_draggable_rectangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py3ambest" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/np_basic_array_ops.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mpl_draggable_rectangle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="np_bool_indexing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mpl_lasso_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EXAMPLES" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py3ambest" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/np_bool_indexing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mpl_lasso_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="np_indexing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pandas_create_series" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -216,12 +237,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py3ambest" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/np_indexing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/pandas_create_series.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="np_iterating" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pandas_series" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -233,12 +254,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py3ambest" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/np_iterating.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/pandas_series.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="np_stacking" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pandas_simple_dataframe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -250,25 +271,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="py3ambest" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/np_stacking.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EXAMPLES/pandas_simple_dataframe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.np_basic_array_ops" />
-      <item index="1" class="java.lang.String" itemvalue="Python.np_indexing" />
-      <item index="2" class="java.lang.String" itemvalue="Python.np_bool_indexing" />
-      <item index="3" class="java.lang.String" itemvalue="Python.np_stacking" />
-      <item index="4" class="java.lang.String" itemvalue="Python.np_iterating" />
+      <item index="0" class="java.lang.String" itemvalue="Python.mpl_lasso_demo" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mpl_draggable_rectangle" />
+      <item index="2" class="java.lang.String" itemvalue="Python.pandas_create_series" />
+      <item index="3" class="java.lang.String" itemvalue="Python.pandas_series" />
+      <item index="4" class="java.lang.String" itemvalue="Python.pandas_simple_dataframe" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.np_iterating" />
-        <item index="1" class="java.lang.String" itemvalue="Python.np_stacking" />
-        <item index="2" class="java.lang.String" itemvalue="Python.np_bool_indexing" />
-        <item index="3" class="java.lang.String" itemvalue="Python.np_indexing" />
-        <item index="4" class="java.lang.String" itemvalue="Python.np_basic_array_ops" />
+        <item index="0" class="java.lang.String" itemvalue="Python.pandas_simple_dataframe" />
+        <item index="1" class="java.lang.String" itemvalue="Python.pandas_series" />
+        <item index="2" class="java.lang.String" itemvalue="Python.pandas_create_series" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mpl_draggable_rectangle" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mpl_lasso_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -289,14 +310,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="26" y="29" width="1232" height="752" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1232" height="752" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19915967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19915967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09463722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.340694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30975348" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -318,7 +338,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09463722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29968455" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30975348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -340,78 +360,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/typical_arrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/creating_lists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/for_loop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/creating_tuples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/using_tuples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slicing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/using_enumerate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/enumerate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXAMPLES/using_ranges.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EXAMPLES/list_comprehensions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -642,14 +590,14 @@
         <state relative-caret-position="1276">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="e#130#200#0" expanded="true" />
-            <element signature="e#255#259#0" expanded="true" />
-            <element signature="e#317#353#0" expanded="true" />
-            <element signature="e#411#447#0" expanded="true" />
-            <element signature="e#505#541#0" expanded="true" />
-            <element signature="e#591#607#0" expanded="true" />
-            <element signature="e#647#671#0" expanded="true" />
-            <element signature="e#709#824#0" expanded="true" />
+            <element signature="e#130#200#0" expanded="false" />
+            <element signature="e#255#259#0" expanded="false" />
+            <element signature="e#317#353#0" expanded="false" />
+            <element signature="e#411#447#0" expanded="false" />
+            <element signature="e#505#541#0" expanded="false" />
+            <element signature="e#591#607#0" expanded="false" />
+            <element signature="e#647#671#0" expanded="false" />
+            <element signature="e#709#824#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -701,9 +649,9 @@
         <state relative-caret-position="667">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#100#111#0" expanded="true" />
-            <element signature="e#152#171#0" expanded="true" />
-            <element signature="e#216#236#0" expanded="true" />
+            <element signature="e#100#111#0" expanded="false" />
+            <element signature="e#152#171#0" expanded="false" />
+            <element signature="e#216#236#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -713,9 +661,9 @@
         <state relative-caret-position="410">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#71#128#0" expanded="true" />
-            <element signature="e#170#191#0" expanded="true" />
-            <element signature="e#224#245#0" expanded="true" />
+            <element signature="e#71#128#0" expanded="false" />
+            <element signature="e#170#191#0" expanded="false" />
+            <element signature="e#224#245#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -725,9 +673,9 @@
         <state relative-caret-position="405">
           <caret line="18" column="37" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="18" selection-end-column="37" />
           <folding>
-            <element signature="e#89#159#0" expanded="true" />
-            <element signature="e#194#205#0" expanded="true" />
-            <element signature="e#239#384#0" expanded="true" />
+            <element signature="e#89#159#0" expanded="false" />
+            <element signature="e#194#205#0" expanded="false" />
+            <element signature="e#239#384#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -793,7 +741,7 @@
         <state relative-caret-position="25">
           <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
           <folding>
-            <element signature="e#602#615#0" expanded="true" />
+            <element signature="e#602#615#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -819,6 +767,92 @@
         <state relative-caret-position="377">
           <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DATA/parasite_data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8642">
+          <caret line="298" column="0" lean-forward="false" selection-start-line="298" selection-start-column="0" selection-end-line="298" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/np_read_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycustom.mplstyle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpl_popup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding>
+            <element signature="e#260#383#0" expanded="true" />
+            <element signature="e#415#621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpl_lasso_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-497">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#312#1" expanded="true" />
+            <element signature="e#313#349#0" expanded="true" />
+            <element signature="e#696#836#0" expanded="true" />
+            <element signature="e#909#1414#0" expanded="true" />
+            <element signature="e#1455#1851#0" expanded="true" />
+            <element signature="e#1891#2225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpl_draggable_rectangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_create_series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+          <folding>
+            <element signature="e#22#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXAMPLES/pandas_simple_dataframe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#22#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
