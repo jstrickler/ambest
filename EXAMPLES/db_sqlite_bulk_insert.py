@@ -63,6 +63,12 @@ def populate_database(conn):
     :return: None
     """
 
+    conn.execute(
+        "insert into fruit (name, price) values (?, ?)",
+        ['banana', .50]
+    )
+
+
     fruit_data = get_fruit_data() # [('apple', .49), ('kiwi', .38)]
 
     try:

@@ -14,5 +14,5 @@ with sqlite3.connect("../DATA/presidents.db") as s3conn: # <1>
 
     print("Sqlite3 does not provide a row count\n")  # <4>
     
-    for row in s3cursor.fetchall():  # <5>
+    for row in s3cursor.fetchone():  # <5>
         print(' '.join(row))  # <6>

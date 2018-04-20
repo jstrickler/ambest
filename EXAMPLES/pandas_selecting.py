@@ -30,10 +30,13 @@ print(df.alpha, '\n') # <6>
 print_header("df['b':'e']")
 print(df['b':'e'], '\n')  # <7>
 
-# slice columns
+# select columns
 print_header("df[['alpha','epsilon','beta']]")
 print(df[['alpha','epsilon','beta']]) # <8>
 print()
 
-
+# select rows and slice columns
+print_header("df[['alpha','epsilon','beta']]['b':'e']")
+print(df[['alpha','epsilon','beta']]['b':'e']) # <9>
+print()
 
