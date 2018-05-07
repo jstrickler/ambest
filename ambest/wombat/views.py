@@ -5,3 +5,5 @@ from django.http.response import HttpResponse
 def index(request):
     return HttpResponse("Welcome to A. M. Best Web App")
 
+
+# https://github.com/jstrickler/ambest
