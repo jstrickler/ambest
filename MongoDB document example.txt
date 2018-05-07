@@ -1,0 +1,154 @@
+[
+{
+	"amb_number": 4917,
+	"company_name": "National Indemnity Group",
+	"address": "3024 Harney Street, Omaha, Nebraska, United States 68131-3580",
+	"phone_num": "402-916-3000",
+	"website": "www.nationalindemnity.com",
+	"analyst": [
+						{"name": "Bob Smith",
+						"position": "analyst",
+						"email": "bob@ambest",
+						"phone": "404-444-5555"
+						},
+						{"name": "Mary Gonzalez",
+						"position": "analyst",
+						"email": "mary@ambest",
+						"phone": "404-444-5556"
+						}
+    ],
+	"team_leader": {
+						"name": "Fred Flintstone",
+						"position": "poobah",
+						"email": "fred@quarry.com",
+						"phone": "404-999-3333"
+    },
+	
+	"rating_assessment": {
+						"balance_sheet_strength": "strongest",
+						"operating_performance": "very strong",
+						"business_profile": "very favorable",
+						"erm": "appropriate"
+    },
+	
+	"rating_rationale": {
+						"balance_sheet_strength": ["x","y"],
+						"operating_performance": ["a","b"],
+						"business_profile": ["m","n"],
+						"erm": ["q","r"]
+						},
+
+	"outlook" : "Text on outlook",
+	
+	"rating_drivers": ["bullet 1","bullet 2"],
+			
+	"year_labels":["2006","2005"],
+	
+	"report_text":{
+						"operating_performance": "Text on OP",
+						"business_profile": "Text on BP"
+	}
+},
+
+{
+	"amb_number": 5902,
+	"company_name": "Wombat Insurance Group",
+	"address": "3024 Marsupial Street, Omaha, Nebraska, United States 68131-3580",
+	"phone_num": "402-916-3000",
+	"website": "www.nationalindemnity.com",
+	"analyst": [
+						{"name": "Mac Smith",
+						"position": "analyst",
+						"email": "bob@ambest",
+						"phone": "404-444-5555"
+						},
+						{"name": "Linda Gonzalez",
+						"position": "analyst",
+						"email": "mary@ambest",
+						"phone": "404-444-5556"
+						}
+    ],
+	"team_leader": {
+						"name": "Barney Rubble",
+						"position": "emperor",
+						"email": "fred@quarry.com",
+						"phone": "404-999-3333"
+    },
+
+	"rating_assessment": {
+						"balance_sheet_strength": "strongest",
+						"operating_performance": "very strong",
+						"business_profile": "very favorable",
+						"erm": "appropriate"
+    },
+
+	"rating_rationale": {
+						"balance_sheet_strength": ["x","y"],
+						"operating_performance": ["a","b"],
+						"business_profile": ["m","n"],
+						"erm": ["q","r"]
+						},
+
+	"outlook" : "Text on outlook",
+
+	"rating_drivers": ["bullet 1","bullet 2"],
+
+	"year_labels":["2006","2005"],
+
+	"report_text":{
+						"operating_performance": "splendid",
+						"business_profile": "Text on BP"
+	}
+},
+
+{
+	"amb_number": 6060,
+	"company_name": "Pythonic Protection",
+	"address": "4566 Reptile Street, Omaha, Nebraska, United States 68131-3580",
+	"phone_num": "402-454-2332",
+	"website": "www.nationalindemnity.com",
+	"analyst": [
+						{"name": "Bob Smith",
+						"position": "analyst",
+						"email": "bob@ambest",
+						"phone": "404-444-5555"
+						},
+						{"name": "Mary Gonzalez",
+						"position": "analyst",
+						"email": "mary@ambest",
+						"phone": "404-444-5556"
+						}
+    ],
+	"team_leader": {
+						"name": "Fred Flintstone",
+						"position": "poobah",
+						"email": "fred@quarry.com",
+						"phone": "404-999-3333"
+    },
+
+	"rating_assessment": {
+						"balance_sheet_strength": "strongest",
+						"operating_performance": "very strong",
+						"business_profile": "very favorable",
+						"erm": "appropriate"
+    },
+
+	"rating_rationale": {
+						"balance_sheet_strength": ["x","y"],
+						"operating_performance": ["a","b"],
+						"business_profile": ["m","n"],
+						"erm": ["q","r"]
+						},
+
+	"outlook" : "Text on outlook",
+
+	"rating_drivers": ["bullet 1","bullet 2"],
+
+	"year_labels":["2006","2005"],
+
+	"report_text":{
+						"operating_performance": "Text on OP",
+						"business_profile": "Text on BP"
+	}
+}
+]
