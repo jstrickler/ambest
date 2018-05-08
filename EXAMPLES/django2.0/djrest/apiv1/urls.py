@@ -12,8 +12,10 @@ urlpatterns = [
 
     # Example:
     url(r'^$', schema_view, name='schema'),
-    url(r'^herolist$', views.superhero_list, name='superherolist'),
-    url(r'^hero/(?P<pk>\d+)', views.superhero_detail, name='superherodetail'),
+    url(r'^heros/(?P<pk>\d+)', views.superhero_detail, name='superherodetail'),
+    url(r'^heros$', views.superhero_list, name='herolist'),
     url(r'^enemylist', views.EnemyList.as_view(), name='enemylist'),
     url(r'^enemy/(?P<pk>\d+)', views.EnemyDetail.as_view(), name='enemydetail'),
+    url(r'^powers/(?P<pk>\d+)', views.power, name="power"),
+    url(r'^powers', views.power_list, name='powerlist'),
 ]

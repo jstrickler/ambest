@@ -31,8 +31,8 @@ def superhero_detail(request, pk):
 # power endpoints
 @api_view(['GET'])
 def power_list(request):
-    powers = Superhero.objects.all()
-    serialized = SuperheroSerializer(powers, many=True)
+    powers = Power.objects.all()
+    serialized = PowerSerializer(powers, many=True)
 
     return Response(serialized.data)
 

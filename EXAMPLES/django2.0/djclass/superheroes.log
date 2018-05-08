@@ -640,3 +640,6 @@ WARNING:django.request:Not Found: /superheroes/genericdetail/1/{% static 'js/sup
 WARNING:django.request:Not Found: /superheroes/genericdetail/1/{% static 'js/superheroes.js'
 WARNING:django.request:Not Found: /superheroes/genericdetail/2/{% static 'js/superheroes.js'
 WARNING:django.request:Not Found: /superheroes/genericdetail/2/{% static 'js/superheroes.js'
+INFO:root:Created superhero Superman
+INFO:root:Created superhero Superman
+INFO:root:Created superhero Superman

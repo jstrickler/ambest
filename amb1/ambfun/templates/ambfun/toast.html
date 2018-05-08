@@ -1,0 +1,18 @@
+{% extends "ambfun/ambfun_base.html" %}
+{% block content %}
+<div class="container">
+
+    <h2>Delicious toast! </h2>
+    Bread is {{toast.bread_type}} <br/>
+    Spread is {{toast.spread}} <br/>
+    {% if toast.butter %}
+    Buttered <br/>
+    {% endif %}
+<hr/>
+    {% for t in all_toast %}
+    {{t.bread_type}} {{t.spread}} {{t.butter}}<br/>
+    {% endfor %}
+
+</div>
+{% endblock content %}
+
